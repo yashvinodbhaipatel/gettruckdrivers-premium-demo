@@ -7,6 +7,7 @@ let motionEnabled = !motionPreference.matches;
 function setMotion(enabled) {
   motionEnabled = enabled;
   document.body.classList.toggle('motion-off', !enabled);
+  document.documentElement.classList.toggle('motion-off', !enabled);
   $('.motion-toggle').setAttribute('aria-pressed', String(enabled));
   $('.motion-state').textContent = enabled ? 'on' : 'off';
   $('.motion-icon').textContent = enabled ? 'Ⅱ' : '▶';
