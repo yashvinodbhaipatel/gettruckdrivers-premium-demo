@@ -2,6 +2,8 @@
 
 An independent website, brand, and motion design concept created by **Yash Patel** specifically for GetTruckDrivers.com. This is a portfolio demonstration, not the company's official website or an affiliated service.
 
+**Live demo:** https://yashvinodbhaipatel.github.io/gettruckdrivers-premium-demo/
+
 ## Design direction
 
 Warm ivory, signal orange, and evergreen create a confident editorial identity. A classic serif and a clean sans balance personality and operational clarity. Original isometric trucking artwork replaces generic stock photography.
@@ -43,4 +45,4 @@ Brand context comes from the supplied role brief and the official GetTruckDriver
 
 ## Deployment
 
-Serve the `dist/` directory using any static host. The optional tracked `.openai/hosting.json` configures the ChatGPT Sites preview. No credentials belong in this repository.
+Published on GitHub Pages from `main`, repository root. The root page redirects to `dist/`. You can also serve `dist/` directly using any static host. No credentials belong in this repository.
